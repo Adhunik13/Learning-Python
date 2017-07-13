@@ -1,16 +1,13 @@
-end1 = 'R'
-end2 = 'a'
-end3 = 'j'
-end4 = 'p'
-end5 = 'u'
-end6 = 't'
+ days = "Mon Tue Wed Thu Fri Sat Sun"
+ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
+ print "Here are the days: ", days
+print "Here are the months: ", months
 
-
-print "." * 10
-print " adhunik is my name."
-print " Surname is "
-print end1+end2+end3+end4+end5+end6 
-print " my height is %s" %'black'
-print "." * 10
-
+ print """
+ There's something going on here.
+ With the three double- quotes.
+ We'll be able to type as much as we like.
+ Even 4 lines if we want, or 5, or 6. 
+ 
+ # 3 double quotes for para
